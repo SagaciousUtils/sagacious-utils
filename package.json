@@ -1,0 +1,28 @@
+{
+  "name": "sagacious-utils",
+  "version": "1.0.5",
+  "description": "常用工具函数",
+  "main": "dist/index.js",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "start": "nodemon --inspect dist/index.js",
+    "watch": "tsc -w",
+    "build": "tsc"
+  },
+  "keywords": [
+    "utils",
+    "function",
+    "常用方法"
+  ],
+  "author": "SagaciousLittle <guoxiaozhuang4@outlook.com>",
+  "license": "ISC",
+  "dependencies": {
+    "cuid": "^2.1.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SagaciousUtils/sagacious-utils.git"
+  }
+}
