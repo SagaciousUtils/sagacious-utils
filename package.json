@@ -3,9 +3,6 @@
   "version": "1.0.5",
   "description": "常用工具函数",
   "main": "dist/index.js",
-  "files": [
-    "dist/*"
-  ],
   "scripts": {
     "start": "nodemon --inspect dist/index.js",
     "watch": "tsc -w",
